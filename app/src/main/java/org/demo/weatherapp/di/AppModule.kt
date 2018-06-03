@@ -3,9 +3,9 @@ package org.demo.weatherapp.di
 import android.app.Application
 import android.arch.persistence.room.Room
 import android.content.Context
+import archknife.annotation.ProvideModule
 import dagger.Module
 import dagger.Provides
-import org.archknife.annotation.ProvideModule
 import org.demo.weatherapp.database.AppDatabase
 import org.demo.weatherapp.database.WeatherDao
 import javax.inject.Singleton

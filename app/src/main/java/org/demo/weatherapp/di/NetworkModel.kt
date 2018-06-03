@@ -1,11 +1,11 @@
 package org.demo.weatherapp.di
 
 import android.content.Context
+import archknife.annotation.ProvideModule
 import dagger.Module
 import dagger.Provides
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
-import org.archknife.annotation.ProvideModule
 import org.demo.weatherapp.R
 import org.demo.weatherapp.api.NetworkInterface
 import org.demo.weatherapp.api.retrofit.LiveDataCallAdapterFactory

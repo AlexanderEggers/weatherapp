@@ -4,7 +4,7 @@ import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModel
 import android.databinding.ObservableField
-import org.archknife.annotation.ProvideViewModel
+import archknife.annotation.ProvideViewModel
 import org.demo.weatherapp.api.WeatherRepository
 import org.demo.weatherapp.model.WeatherModel
 import org.demo.weatherapp.util.WeatherIconUtil

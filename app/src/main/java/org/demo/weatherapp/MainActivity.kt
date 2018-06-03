@@ -5,8 +5,8 @@ import android.arch.lifecycle.ViewModelProviders
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import org.archknife.annotation.ProvideActivity
-import org.archknife.extension.Injectable
+import archknife.annotation.ProvideActivity
+import archknife.extension.Injectable
 import org.demo.weatherapp.databinding.ActivityMainBinding
 import javax.inject.Inject
 
